@@ -9,4 +9,16 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
-    return
+    b=a%10
+    c=a//10
+    d=b*10+c
+    
+    if d<a:
+        e=True
+    if d>a:
+        e=False
+    
+    return e
+a=int(input("sonni kiriting "))
+
+print(main(a))
