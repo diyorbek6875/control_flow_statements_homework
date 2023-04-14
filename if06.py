@@ -13,4 +13,22 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    x = 0
+    if a>0:
+        x=x+1
+    if b>0:
+        x=x+1
+    if c>0:
+        x=x+1
+    y=0
+    if a<0:
+        y=x+1
+    if b<0:
+        y=x+1
+    if c<0:
+        y=x+1
+    return x,y
+a=int(input("sonni kirit  "))
+b=int(input("sonni kirit  "))
+c=int(input("sonni kirit  "))
+print(main(a,b,c))
