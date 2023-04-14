@@ -12,4 +12,16 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+
+    if a>0 and a%2==0:
+        d="positive even number "
+    if a>0 and a%2==1:
+        d="positive odd number "
+    if a<0 and a%2==0:
+        d="negative even number "
+    if a>0 and a%2==1:
+        d="negative odd number "
+
+    return d
+a=int(input("son kirit "))
+print(main(a))
