@@ -11,4 +11,18 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+    a<9
+    if 99>=a>=10 and a%2==1:
+        f="two-digit odd number "
+    if 99>=a>=10 and a%2==0:
+        f="two-digit even number "
+    if 999>=a>=100 and a%2==1:
+        f="three digit odd number "
+    if 999>=a>=100 and a%2==0:
+        f="three digit even number "
+    
+        
+
+    return f
+a=int(input("sonni kirit "))
+print(main(a))
