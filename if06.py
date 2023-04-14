@@ -27,7 +27,12 @@ def main(a,b,c):
         y=x+1
     if c<0:
         y=x+1
-    return x,y
+
+    if x>y:
+        l=str("there a lot of positive numbers ")
+    if x<y:
+        l=str("tere are a lot of negative numbers ")
+    return l
 a=int(input("sonni kirit  "))
 b=int(input("sonni kirit  "))
 c=int(input("sonni kirit  "))
