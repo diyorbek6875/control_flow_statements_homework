@@ -13,4 +13,19 @@ def main(temp):
     Returns:
         string: the message to print
     """
-    return
+    if temp<0:
+        a="Freezing "
+    if 10>temp>0:
+        a="Very Cold "
+    if 20>temp>10:
+        a="Cold "
+    if 30>temp>20:
+        a="Normal"
+    if 40>temp>30:
+        a="Hot"
+    if temp>40:
+        a="Very Hot "
+
+    return a
+temp=int(input("Haroratni kiriting "))
+print(main(temp))
